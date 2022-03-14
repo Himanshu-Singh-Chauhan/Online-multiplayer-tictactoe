@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+nav {
+    background-color: rgb(39, 23, 39);
+    color: white;
+    height: 76px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.container {
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.gameContainer {
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.tile {
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile:hover {
+    background-color: rgb(255, 235, 122);
+}
+
+.gameInfo {
+    padding: 0 34px;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+#reset {
+    background-color: bisque;
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Utility classes */
+.hide {
+    display: none;
+}
+
+.br-0 {
+ border-right: 0;
+}
+
+.bl-0 {
+ border-left: 0;
+}
+
+.bt-0 {
+ border-top: 0;
+}
+
+.bb-0 {
+ border-bottom: 0;
+}
+
+.playerX {
+    color: #8a8aec;
+}
+
+.playerO {
+    color: #fa7cd4;
+}

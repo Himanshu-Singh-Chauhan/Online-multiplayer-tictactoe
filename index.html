@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li>
+                MyTicTacToe.com
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section class="gameContainer">
+            <div class = "tile bt-0 bl-0">   </div>
+            <div class = "tile bt-0">        </div>
+            <div class = "tile bt-0 br-0">   </div>
+            <div class = "tile bl-0">        </div>
+            <div class = "tile">             </div>
+            <div class = "tile br-0">        </div>
+            <div class = "tile bb-0 bl-0">   </div>
+            <div class = "tile bb-0">        </div>
+            <div class = "tile bb-0 br-0">   </div>
+        </section>
+
+        <section class="gameInfo">
+
+            <h1>Welcome to Tic Tac Toe</h1>
+
+            <div style="font-size: 4vh;">
+                Turn for - <span class="display-player">X</span><br>
+                <div class="announcer"></div>
+                <button id="reset">Reset Board</button>
+            </div>
+
+            <div class="hide">
+                <img src="excited.gif" alt="Dancing gif">
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>
